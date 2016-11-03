@@ -1,0 +1,60 @@
+@font-face{
+  font-family: 'liliti';
+  src: url('../fonts/liliti.woff');
+}
+.day3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('http://img.careerfore.com/schoo2l.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+.day3_char_container{
+  width: 84px;
+  height: 84px;
+  border-color: #DC143C;
+  border-width: 2px;
+  text-align: center;
+  line-height: 84px;
+  position: relative;
+  border-color: #DC143C;
+  border-width: 2px;
+  border-style: solid;
+  margin: 10px;
+  display: inline-block;
+}
+.day3_char_line_vertical{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 80px;
+  width: 40px;
+  border-right-color: #DC143C;
+  border-right-width: 1px;
+  border-right-style: dashed;
+}
+.day3_char_line_horizontal{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 40px;
+  width: 80px;
+  border-bottom-color: #DC143C;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+}
+.day3_gradiant_background{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(transparent, rgba(255,255,255,0.5), rgba(255,255,255,0.85), rgba(255,255,255,0.5), transparent);
+}
+.day3_text{
+  font-family: 'liliti';
+  color: #333;
+  font-size: 60px;
+  margin-left: 10px;
+  position: absolute;
+}

@@ -1,0 +1,74 @@
+@font-face{
+  font-family: 'qxkai';
+  src: url('../fonts/qxkai.woff');
+}
+.day2{
+  background-color: #222;
+  display: flex;
+  justify-content: flex-end;
+}
+.day2_content{
+  max-width: 80%;
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: right;
+}
+.day2_text{
+  font-family: 'qxkai';
+  font-weight: lighter;
+  color: #eee;
+  font-size: 50px;
+}
+.day2_text_big{
+  font-family: 'qxkai';
+  font-size: 400px;
+  color: rgba(255,255,255,0.2);
+  font-weight: bold;
+}
+.day2_text_container_1{
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
+.day2_text_shadow{
+  font-size: 70px;
+  display: inline;
+  animation: light 2s infinite linear;
+  -webkit-animation: light 2s infinite linear;
+}
+
+@keyframes light {
+  0% {
+    text-shadow: 0px 0px 0px #fff;
+    transform: scale(1,1);
+  }
+  20% {
+    text-shadow: 0px 0px 0px #fff;
+    transform: scale(1,1);
+  }
+  30% {
+    text-shadow: 0px 0px 8px #fff;
+    transform: scale(1.2,1.2);
+  }
+  40% {
+    text-shadow: 0px 0px 0px #fff;
+    transform: scale(1,1);
+  }
+  60% {
+    text-shadow: 0px 0px 0px #fff;
+    transform: scale(1,1);
+  }
+  70% {
+    text-shadow: 0px 0px 8px #fff;
+    transform: scale(1.2,1.2);
+  }
+  80% {
+    text-shadow: 0px 0px 0px #fff;
+    transform: scale(1,1);
+  }
+  100% {
+    text-shadow: 0px 0px 0px #fff;
+    transform: scale(1);
+  }
+}

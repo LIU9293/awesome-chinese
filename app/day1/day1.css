@@ -1,0 +1,37 @@
+@font-face{
+  font-family: 'SentyZHAO';
+  src: url('../fonts/SentyZHAO.woff');
+}
+.day1{
+  display: flex;
+  align-items: stretch;
+  background-image: url('http://img.careerfore.com/natural-paper.png');
+  padding: 70px 10% 50px 10%;
+  direction: rtl;
+}
+.day1_content{
+  display: flex;
+  align-items: stretch;
+}
+.day1_text{
+  font-family: 'SentyZHAO';
+  font-size: 55px;
+  font-weight: bold;
+  width: 55px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 40px;
+  color: #333;
+}
+.day1_title{
+  margin-right: 30px;
+}
+.day1_image{
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  opacity: 0.8;
+  background-image: url('http://img.careerfore.com/xiaoyaoyou.jpg');
+  margin-right: 160px;
+  margin-top:50px;
+}
